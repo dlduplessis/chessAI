@@ -69,4 +69,5 @@ def split_dims(board):
       board3d[13][i][j] = 1
   board.turn = aux
   
+  return board3d
   
