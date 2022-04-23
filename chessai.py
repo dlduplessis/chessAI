@@ -57,7 +57,6 @@ def split_dims(board):
       board3d[piece + 5][7 - idx[0]][idx[1]] = 1
 
   # add attacks and valid moves too
-  # so the network knows what is being attacked
   aux = board.turn
   board.turn = chess.WHITE
   for move in board.legal_moves:
